@@ -1,0 +1,57 @@
+.logo{
+    height: 63px;
+    width: 160px;
+   
+}
+.nav{
+    justify-content: center;
+    /* border: 2px red solid; */
+    height: 73.03px;
+    width: 1366px;
+    background-color: #FFFFFF;;
+}
+.bu1{
+    /* color:  rgba(128, 0, 128, 0.25);  */
+    width: 140px;
+    height: 22px;
+    
+    font-family: 'Poppins';
+    font-style: 'semiBold';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    /* or 22px */
+    
+    text-align: center;
+}
+.bu2{
+    width: 156px;
+height: 22px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.5%;
+/* or 22px */
+
+text-align: center;
+}
+
+@media screen and (max-width: 428px) {
+  
+    .nav{
+       width: 428px; 
+    } 
+     
+    .logo{
+        height: 45px;
+        width: 160px;
+       
+    }
+    .bu1{
+        color: #FFFFFF;
+    }
+     
+      
+  }

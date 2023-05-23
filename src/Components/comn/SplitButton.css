@@ -1,0 +1,40 @@
+.a1{
+    /* border: 2px solid red; */
+    /* justify-content: center;
+    color: rgba(128, 0, 128, 1);
+    width: 111px;
+height: 22px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.5%;
+/* or 22px */
+color: rgba(128, 0, 128, 1);
+
+text-align: center;
+}
+
+.list11{
+   
+    background-color: aqua;
+margin-left: 1400px; 
+margin-top: 10px;   
+   
+}
+
+@media screen and (max-width: 428px) {
+  
+    .a1{
+        width: 257px;
+        height: 48px;
+        color: aliceblue;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-left: -250px;
+        background-color: rgba(128, 0, 128, 1);
+    }
+    
+}

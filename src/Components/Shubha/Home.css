@@ -1,0 +1,42 @@
+.main{
+    justify-content: center;
+   margin: 0 auto;
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 1366px;
+    background-color: #E5E5E5;
+
+    /* border: 2px solid red; */
+  }
+
+.main1{
+  background-color: #FFFFFF;
+  /* border:  red 2px solid; */
+
+}
+.ul1{
+  margin-left: -1070px;
+  text-decoration: none;
+}
+.ul2{
+   margin-left: 10px;
+   text-decoration: none;
+}
+
+@media screen and (max-width: 428px) {
+  
+  .main{
+    width: 428px;
+  }
+   
+  .ul1{
+    margin-left: -250px;
+    text-decoration: none;
+    margin-right: 10px;
+ }
+ .ul2{
+     margin-left: 10px;
+     text-decoration: none;
+  }
+    
+}

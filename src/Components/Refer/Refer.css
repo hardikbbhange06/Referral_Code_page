@@ -1,0 +1,26 @@
+.main{
+    justify-content: center;
+   margin: 0 auto;
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 1366px;
+    background-color: #E5E5E5;
+
+    /* border: 2px solid red; */
+  }
+
+.main1{
+  background-color: #FFFFFF;
+  /* border:  red 2px solid; */
+
+}
+
+@media screen and (max-width: 428px) {
+  
+  .main{
+    width: 428px;
+  }
+   
+   
+    
+}

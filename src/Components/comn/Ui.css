@@ -1,0 +1,28 @@
+.ui{
+    margin-left: 187px;
+    width: 138px;
+    height: 21px;
+    margin-top: 34px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+/* border: 2px solid red; */
+
+color: #000000;
+}
+.uii{
+    background-color: #FFFFFF;
+}
+@media screen and (max-width: 428px) {
+
+    .ui{
+        /* text-align: left; */
+        justify-content: left;
+        margin-left: 35px;
+        margin-top: 51px;
+    }  
+}
